@@ -1,0 +1,39 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de configuración de la IDE
+.idea/
+.vscode/
+
+# Archivos de base de datos temporales
+*.db
+*.sqlite3
+
+# Archivos de compilación de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Entorno virtual de Python
+*.env
+.env
+
+# Archivos de logs
+*.log
+
+# Otros archivos que podrían ser específicos de tu proyecto
+*.sqlite
+instance/
+
+# Archivos de configuración de flake8
+.flake8
+
+# Otros archivos de configuración como coverage o tox
+.coverage
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
