@@ -13,7 +13,7 @@ def index():
 
     print(username, email, password)
 
-    return "<h1>Mi primera app Flask deployada en Render</h1>"
+    return "<h1>Mi primera app Flask deployada en Render <br> {} <br> {} <br> {}</h1><hr><img src:'https://project-static-assets.s3.amazonaws.com/APISpreadsheets/ProgrammingMemes/JSForKids.jpg'>"
 
 def status_404(error):
     return "<h1>Página no encontrada</h1>", 404
